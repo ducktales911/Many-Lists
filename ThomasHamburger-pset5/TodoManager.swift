@@ -10,6 +10,8 @@ import Foundation
 
 class TodoManager {
     
+    private let database = DatabaseHelper()
+    
     static let sharedInstance = TodoManager()
     
     private init() { }

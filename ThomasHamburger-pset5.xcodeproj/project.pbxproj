@@ -452,6 +452,7 @@
 				E9E5430D1EC465C300E5659C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

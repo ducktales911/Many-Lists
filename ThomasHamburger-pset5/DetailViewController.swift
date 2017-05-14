@@ -10,6 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
@@ -32,6 +33,10 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func addButton(_ sender: Any) {
+    }
+    
 
     var detailItem: NSDate? {
         didSet {

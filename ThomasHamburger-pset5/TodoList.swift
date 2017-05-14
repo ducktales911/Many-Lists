@@ -10,4 +10,7 @@ import Foundation
 
 // Todos: list of todoItems
     // One to many relatie: kan bestaan uit 0 tot meerdere todoItems
+var todosArray = [(id: Int64, title: String, completed: Bool)]()
+
+
 // -title
