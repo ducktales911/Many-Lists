@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9D5405D1EC90B8600E0486E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D5405C1EC90B8600E0486E /* TableViewCell.swift */; };
 		E9E542FB1EC465C300E5659C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E542FA1EC465C300E5659C /* AppDelegate.swift */; };
 		E9E542FD1EC465C300E5659C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E542FC1EC465C300E5659C /* MasterViewController.swift */; };
 		E9E542FF1EC465C300E5659C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E542FE1EC465C300E5659C /* DetailViewController.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9D5405C1EC90B8600E0486E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E9E542F71EC465C300E5659C /* ThomasHamburger-pset5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThomasHamburger-pset5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E542FA1EC465C300E5659C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E542FC1EC465C300E5659C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				E9E543101EC46CB600E5659C /* TodoList.swift */,
 				E9E543121EC46CC800E5659C /* TodoManager.swift */,
 				E9E543151EC47B7D00E5659C /* DatabaseHelper.swift */,
+				E9D5405C1EC90B8600E0486E /* TableViewCell.swift */,
 				E9E543031EC465C300E5659C /* Assets.xcassets */,
 				E9E543051EC465C300E5659C /* LaunchScreen.storyboard */,
 				E9E543081EC465C300E5659C /* Info.plist */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E543111EC46CB600E5659C /* TodoList.swift in Sources */,
+				E9D5405D1EC90B8600E0486E /* TableViewCell.swift in Sources */,
 				E9E543131EC46CC800E5659C /* TodoManager.swift in Sources */,
 				E9E542FF1EC465C300E5659C /* DetailViewController.swift in Sources */,
 				E9E543161EC47B7D00E5659C /* DatabaseHelper.swift in Sources */,

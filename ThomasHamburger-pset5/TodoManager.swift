@@ -20,6 +20,7 @@ class TodoManager {
     func printHello() {
        print("Hello from the object side")
     }
+
     // Hier komt alle logica voor het verwerken van todoItems
     
     // IN DE VORM VAN EEN SINGLETON

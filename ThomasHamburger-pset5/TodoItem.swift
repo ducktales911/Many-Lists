@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TodoItem {
+class TodoItem {
     // title
     // completed
     // picture
@@ -16,8 +16,16 @@ struct TodoItem {
     // background color
     // inProgress
     // descrition
-    let id: Int64
-    let title: String?
-    let completed = Bool
-
+    var id: Int64
+    var title: String
+    var completed: Bool
+    var list: Int
+    
+    init(title: String, id: Int64, completed: Bool, list: Int) {
+        self.title = title
+        self.id = id
+        self.completed = completed
+        self.list = list
+    }
+    
 }

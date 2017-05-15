@@ -12,6 +12,8 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    
+    @IBOutlet weak var todosTableView: UITableView!
 
 
     func configureView() {
@@ -27,6 +29,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
+        
     }
 
     override func didReceiveMemoryWarning() {
